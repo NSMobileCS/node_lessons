@@ -1,0 +1,50 @@
+body {
+    background-color: #D7BA7D;
+}
+table{
+    width: 80%;
+    border: 1px groove darkolivegreen;
+    margin: 25px auto;
+}
+thead {
+    background-color: lightskyblue;
+}
+tbody {
+    text-align: center;
+}
+tbody > tr:nth-child(even){
+    background-color: lightgray;
+}
+th, td {
+    height: 10px;
+}
+textarea{
+    display: block;
+}
+.messages, p{
+    color: red;
+    font-weight: bold;
+}
+
+.classy{
+    width: 72%;
+    display: inline-block;
+    margin: 25px auto 25px auto;
+    background: repeating-linear-gradient(
+        45deg, rgba(255,255,255,0.3) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 0), #ccc;
+    }
+
+img{
+    display: block;
+    max-width: 45%;
+    max-height: 40%;
+    margin: 30px auto 30px auto;
+}
+
+#formclass {
+    width: 80%;
+    display: inline-block;
+    border: 1px solid #2F4F4F;
+    margin: 25px auto;
+}
+
